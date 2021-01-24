@@ -1,0 +1,217 @@
+/*Global Settings*/
+/*Do that if screen is small*/
+@media only screen and (max-width: 1080px) {
+  .Logo {
+    display: none;
+  }
+
+  ul {
+    position: relative;
+    left: 2px;
+    border: 2px solid #000;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 27%, rgba(218, 207, 82, 0.6745885854341737) 100%);
+  }
+}
+
+/*Do that if screen is big*/
+/**/
+/*scrollBar hidden but keep functionality*/
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background-color: #DBDBDB;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.75s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+/*Footer*/
+.footer {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.footerParagraphs {
+  background-color: white;
+  color: white;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 2px grey;
+  margin-top: -10px;
+}
+
+.footerBottom {
+  background-color: grey;
+  bottom: 0;
+}
+
+/*Nav Bar*/
+.Logo {
+  position: relative;
+  top: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.navBS {
+  height: 110px;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.navBG {
+  position: sticky;
+  transition: 1s ease;
+  height: 120px;
+}
+
+.navBG.scrolled {
+  position: sticky;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 27%, rgba(218, 207, 82, 0.6745885854341737) 100%);
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.btn {
+  margin: 4px;
+}
+
+.mobNavDrop {
+  float: right;
+}
+
+.headText {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.subHeadText {
+  font-size: 20px;
+  display: inline;
+}
+
+.text {
+  font-size: 15px;
+  display: inline;
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+  margin: 0px;
+}
+
+.phone {
+  display: inline;
+}
+
+.secPhone {
+  margin-left: 67px;
+  font-size: 15px;
+}
+
+.secMail {
+  margin-left: 70px;
+  font-size: 15px;
+}
+
+.wraper {
+  margin-left: 40px;
+}
+
+.footerRow {
+  margin-bottom: 20px;
+}
+
+.footerRowSec {
+  margin-top: 0px;
+}
+
+/*Icons*/
+.footerIcons {
+  margin-left: 30px;
+}
+
+.SMIcon {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 70px;
+  margin: 10px;
+  z-index: 2;
+}
+
+.fa-facebook {
+  color: #4267B2;
+}
+
+.fa-facebookDiv {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+}
+
+.fa-google {
+  background: -moz-linear-gradient(top, #4081ED 0%, #E44134 100%);
+  background: -webkit-linear-gradient(top, #4081ED 0%, #E44134 100%);
+  background: linear-gradient(top bottom, #4081ED 0%, #E44134 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-whatsapp {
+  color:#0DC143;
+}
+
+.fbLink {
+  font-size: 34px;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  background-color: grey;
+  border-radius: 50px;
+  padding: 10px;
+  opacity: 0;
+  z-index: 0;
+}
+
+.blueLink {}
+
+.whatsappLink {
+  left: -30px;
+}

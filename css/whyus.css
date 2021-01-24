@@ -1,0 +1,83 @@
+.Logo {
+  margin-left: -25px;
+  width: 160px;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.headlines {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  height: 100%;
+  margin: 20px;
+  padding: 50px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.section {
+  height: 100%;
+}
+
+.card-block {
+  border: 2px black solid;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+hr {
+  position: relative;
+  left: 10%;
+  width: 80%;
+}
+
+.clientsIcon {
+  width: 100px;
+  margin-top: 50px;
+}
+
+.prevProj {
+  border: 2px solid black;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+/*slider*/
+.projHead{
+  position: relative;
+  z-index: 1;
+}
+.sliderImg {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  z-index: 0;
+  border: 2px solid black;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+
+}
+.s4{
+  margin-top: 100px;
+}
+@media only screen and (max-width: 760px) {
+  .sliderImg {
+    top: -50px;
+  }
+}

@@ -1,0 +1,120 @@
+/*do this if screen is small*/
+@media only screen and (max-width: 1024px) {
+  .servicesP {
+    display: none;
+  }
+}
+
+/*do this if screen is med and more*/
+@media only screen and (min-width: 1024px) {
+  .pContainer {
+    margin-left: 10%;
+  }
+
+  .servicesFullP {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/*do this if screen is too big*/
+@media only screen and (min-width: 1680px) {
+  .servicesP {
+    width: 420px !important;
+    height: 420px !important;
+    left: 38% !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.Logo {
+  margin-left: -25px;
+  width: 160px;
+}
+
+/*icons*/
+.icons {
+  width: 10%;
+  position: absolute;
+  top: 30%;
+  left: 47.5%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.logo {
+  position: relative;
+  top: 50px;
+  left: -100px;
+  opacity: 0;
+}
+
+.logoIcon {
+  width: 40%;
+}
+
+.servicesP {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+  border-radius: 100%;
+  padding: 80px;
+  opacity: 0;
+  top: 150px;
+  left: 35%;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 0px 10px 10px black;
+}
+
+
+/*hover paragraphs*/
+.fireP {
+  background-image: url("../img/fireWall.png");
+  color: white;
+}
+
+.smartHomesP {
+  background-image: url("../img/smart.png");
+  color: white;
+}
+
+.networkSoundP {
+  background-image: url("../img/sound.png");
+  color: white;
+}
+
+.steamP {
+  background-image: url("../img/smoke.png");
+  color: white;
+}
+
+.securityP {
+  background-image: url("../img/securityWall.png");
+  color: white;
+}
+
+.elecP {
+  background-image: url("../img/elecWall.png");
+  color: white;
+}
+
+.servicesContainer {
+  margin-top: 450px;
+}
+
+.servicesFullP {
+  margin-top: 32px;
+  background-color: white;
+  padding: 32px;
+  border: 2px solid black;
+}
+
+.secIcon {
+  width: 128px;
+}
